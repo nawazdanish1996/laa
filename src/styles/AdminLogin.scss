@@ -1,0 +1,36 @@
+.adminLogin{
+    min-height: 100vh;
+    form{
+        width: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        padding: 1.5rem;
+        border-radius: 20px;
+        animation: rotates 1s infinite;
+
+        label{
+            font-size: 25px;
+            margin-bottom: .5rem;
+        }
+
+        input{
+            margin-bottom: .7rem;
+            width: 100%;
+        }
+    }
+}
+
+@keyframes rotates {
+    0%{
+        box-shadow: 0 0 15px red;
+    }
+    50%{
+        box-shadow: 0 0 15px rgb(137, 233, 11);
+    }
+    100%{
+        box-shadow: 0 0 15px rgb(235, 201, 12);
+    }
+}

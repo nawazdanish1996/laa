@@ -1,0 +1,14 @@
+.imgBoxHome{
+    text-align: center;
+    .row{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        
+        .col:nth-child(1){
+            p{
+                text-align: justify;
+            }
+        }
+    }
+
+}
